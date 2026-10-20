@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
+	"version": "${VIP_ITEMS_VERSION}",
+	"name": "vip_items",
+	"description": "VIP round-start items: every VIP with the 'items' feature (a space-separated weapon list in groups.ini) gets those weapons at spawn on the configured rounds; grenades are only added when the player has none of that type, other weapons only when not already carried. A port of the Metamod:Source module 'VIP_Items' of the Pisex cs2-vip plugin.",
+	"author": "Pisex, ported to Plugify",
+	"website": "https://github.com/untrustedmodders/plugify",
+	"license": "GPL-3.0",
+	"entry": "bin/vip_items",
+	"platforms": [],
+	"language": "cpp",
+	"dependencies": [
+		{
+			"name": "s2sdk",
+			"constraints": ">=2.18.2"
+		},
+		{
+			"name": "vip",
+			"constraints": ">=1.0.0"
+		},
+		{
+			"name": "hudmenu",
+			"constraints": ">=1.0.0",
+			"optional": true
+		}
+	],
+	"methods": []
+}
