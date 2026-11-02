@@ -9,9 +9,6 @@
            module from the vip plugin's exported methods) */
         __vip_*;
 
-        /* hudmenu binding slots (defined by hudmenu_bindings via pisexcompat) */
-        __hudmenu_*;
-
         /* No exported methods: vip_items exposes nothing to other plugins. */
 
     local: *;
